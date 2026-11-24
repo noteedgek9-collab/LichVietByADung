@@ -15,8 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Extract Android source
-        run: unzip -o LichViet-Android-source-fixed.zip -d .
+      - name: Extract Android source 
+        run: unzip -o LichViet-Android-source-transparent.zip -d .
 
       - uses: actions/setup-java@v4
         with:
